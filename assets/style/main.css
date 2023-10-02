@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+   body {
+    background-color: black;
+   }
+
+   
+    
+
+
+.box svg {
+    width: 350px;
+    height: 350px;
+   
+    fill: white;
+
+    animation-name: dvdexample;
+    animation-duration: 10s;
+    animation-timing-function: initial;
+    animation-iteration-count: infinite;
+    width: 500px;
+    height: 500px;
+    
+   
+
+
+
+}
+@keyframes dvdexample {
+    0% {
+        transform: translate(-12px,20px);
+        fill: blue;
+    }
+    25% {
+        transform: translate(796px,430px);
+        fill: red;
+    }
+    50% {
+        transform: translate(899px,240px);
+        fill: green;
+    }
+    75% {
+        transform: translate(80px,-130px);
+        fill: orange;
+    }
+    100% {
+        transform: translate(-12px,20px);
+        fill: purple;
+    }
+   
+    }
+
+    
